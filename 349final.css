@@ -1,0 +1,337 @@
+@charset "UTF-8";
+
+
+html {
+	/*background-image:url(BrownRope.jpg);*/
+
+}
+
+#nav{
+	font-family: 'Montserrat', sans-serif;
+	list-style: none;
+	color: #ffffff;
+	padding: 5px;
+	
+	text-align:center;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+#nav li{
+	display:inline;	
+	padding: 10px;
+	
+}
+
+#nav a{	
+	border-style: solid;
+	border-color:#000;
+	background-color:#273759;
+	color: #ffffff;
+	padding: 10px;
+	margin-left: -4px;
+}
+#nav a:visited{
+	color:#2BB0AD;
+}
+#nav a:hover{
+	color: #47C175;	
+	background-color: #6360D7;
+}
+
+
+#imagezoom:hover{
+	transform: scale(1.05,1.05);
+}
+
+#climb{
+	margin-top: 12px;
+	padding-top: 25px;
+	border: #3A2B2B;
+	border-width:thick;
+}
+
+
+#Home a{	
+	border-style: solid;
+	border-color:#000;
+	background-color:#273759;
+	color: #ffffff;
+	padding: 10px;
+	margin-left: -4px;
+}
+
+
+body {
+	margin-top: 1.5em auto; /* this + a defined width, centers the body content */
+	/*border-color: #054A29;
+	border-style: double;
+	border-width: 10px;*/
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 50px;
+	padding-bottom:50px;
+	background-image:url(congruent_pentagon.png);
+	color: #000000;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Carrois Gothic SC', sans-serif;
+	text-align: center;
+	color: #5B916F;
+	background-color: #151749;
+	border-color: #6360D7;
+	border-style: solid;
+	width: 625px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h2 {
+	font-family: 'Karla', sans-serif;
+	text-align: center;
+	padding: 7px;
+	color: #5B916F;
+	background-color: #151749;
+	border-color: #6360D7;
+	border-style: solid;
+}
+
+h3 {
+	font-family: 'Karla', sans-serif;
+	text-align: center;
+	padding: 7px;
+	color: #151749;
+	background-color: #5B916F;
+	border-color: #6360D7;
+	border-style: solid;
+}
+
+/* IMPORTANT: this will put a border around ALL images - so the banner AND the image of you. You may want to remove the border or change it! */
+img {
+	border-color: #000000;
+	border-style: solid;
+	border-width: 5px;
+	border-radius: 1000px;
+	box-shadow: 5px 5px 2px #888;
+	margin-bottom: 50px;
+}
+.Home{
+	display: inline;
+	border-style: solid;
+	border-color: #000;
+	padding: 10px;
+	margin-left: -4px;
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 36px;
+	border-radius: 50px;
+}
+
+.Intro{
+	display: inline;
+	border-style: solid;
+	border-color: #000;
+	background-color: #273759;
+	color: #ffffff;
+	padding: 10px;
+	margin-left: -4px;
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 36px;
+	border-radius: 50px;
+}
+
+#Personal{
+	position: absolute;
+	left: 230px;
+	top: 600px;
+}
+
+#Professional{
+	position: absolute;
+	right: 160px;
+	top: 600px;
+}
+
+/* The code below here alters your links */
+a {
+  font-weight: bold;
+}
+
+a:link{
+	text-decoration:none;
+	color: #6360D7;
+}
+
+a:visited{
+	color: #5B916F;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #006;
+}
+ul{
+	font-family: 'Cantarell', sans-serif;
+	list-style-image:url("fish2black3.png");
+	text-align: left;
+}
+ol{
+	font-family: 'Cantarell', sans-serif;
+	text-align: left;
+}
+
+#node1{
+	
+	background-color: #154623;
+	color: #ffffff;
+	display: inline;
+	border-style: solid;
+	border-color: #000;
+	padding: 25px;
+	margin-left: -4px;
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 48px;
+	border-radius: 10000px;
+	position: absolute;
+	right: 150px;
+	bottom: 200px;
+	width: 150px;
+	height: 50px;
+}
+
+#node2{
+	
+	background-color: #154623;
+	color: #ffffff;
+	display: inline;
+	border-style: solid;
+	border-color: #000;
+	padding: 25px;
+	margin-left: -4px;
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 48px;
+	border-radius: 10000px;
+	position: absolute;
+	right: 150px;
+	bottom: 0px;
+	width: 150px;
+	height: 50px;
+	
+	
+}
+
+#node3{
+	
+	background-color: #154623;
+	color: #ffffff;
+	display: inline;
+	border-style: solid;
+	border-color: #000;
+	padding: 25px;
+	margin-left: -4px;
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 20px;
+	border-radius: 10000px;
+	position: absolute;
+	right: 150px;
+	bottom: -200px;
+	width: 150px;
+	height: 50px;
+	text-height:max-size;
+	
+}
+
+#node4{
+	
+	background-color: #154623;
+	color: #ffffff;
+	display: inline;
+	border-style: solid;
+	border-color: #000;
+	padding: 25px;
+	margin-left: -4px;
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 45px;
+	border-radius: 10000px;
+	position: absolute;
+	left: 150px;
+	bottom: -200px;
+	width: 150px;
+	height: 50px;
+	text-height:max-size;
+	
+}
+
+#node5{
+	
+	background-color: #154623;
+	color: #ffffff;
+	display: inline;
+	border-style: solid;
+	border-color: #000;
+	padding: 25px;
+	margin-left: -4px;
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 35px;
+	border-radius: 10000px;
+	position: absolute;
+	left: 150px;
+	bottom: 0px;
+	width: 150px;
+	height: 50px;
+	text-height:max-size;
+	
+}
+#node6{
+	
+	background-color: #154623;
+	color: #ffffff;
+	display: inline;
+	border-style: solid;
+	border-color: #000;
+	padding: 25px;
+	margin-left: -4px;
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 35px;
+	border-radius: 10000px;
+	position: absolute;
+	left: 150px;
+	bottom: 200px;
+	width: 150px;
+	height: 50px;
+	text-height:max-size;
+	
+}
+#somekindofway{
+background:#054A29;
+margin-top: 20px;
+color: #fff;
+padding: 5px;
+text-align: left;
+position: absolute;
+z-index: 100; 
+bottom: 0; 
+left: 0;
+width: 100%;
+}
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+#header {
+	background:#ededed;
+	padding:10px;
+}
+#content {
+	padding-bottom:175px; /* Height of the footer element */
+}
+#footer {
+	background:#ffab62;
+	width:100%;
+	height:100px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	margin-top: 50px;
+}
